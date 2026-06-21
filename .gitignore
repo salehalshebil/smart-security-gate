@@ -1,0 +1,21 @@
+# ── Large model & data files (load from Google Drive at runtime, do NOT upload) ──
+*.pt
+*.pth
+*.onnx
+*.zip
+*.7z
+datasets/
+saudi_face_dataset*/
+plate_chars*.pt
+
+# ── Notebook / Python noise ──
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# ── Runtime output (logs, captured images) ──
+*.log
+access_logs.json
+static/img/captures/
